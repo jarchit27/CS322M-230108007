@@ -13,13 +13,9 @@ The main files are `traffic_light.v` (the FSM) and `tb_traffic_light.v` (the tes
 
 ---
 
-## Simulation Instructions
-
-Use a Verilog simulator like Icarus Verilog and a waveform viewer like GTKWave.
-
-### 1. Compile and Run
-
 ## 3. How to Run Simulation
+
+To compile and run the simulation using Icarus Verilog and view the waveform with GTKWave, use the following commands:
 
 ```sh
 # Compile the Verilog files
@@ -30,7 +26,3 @@ vvp sim.out
 
 # Open the generated waveform dump file
 gtkwave dump.vcd
-
-## Expected Behavior
-
-The waveform should show the FSM correctly cycling through its four states (`S_NS_G` -> `S_NS_Y` -> `S_EW_G` -> `S_EW_Y`). Verify that the duration of each state, measured by the `tick` signal, matches the 5/2/5/2 second timing specification. The corresponding traffic light outputs should be active for each state.
