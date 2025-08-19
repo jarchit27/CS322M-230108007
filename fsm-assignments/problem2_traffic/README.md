@@ -19,20 +19,17 @@ Use a Verilog simulator like Icarus Verilog and a waveform viewer like GTKWave.
 
 ### 1. Compile and Run
 
-```shell
+## 3. How to Run Simulation
+
+```sh
+# Compile the Verilog files
 iverilog -o sim.out tb_traffic_light.v traffic_light.v
+
+# Run the simulation executable
 vvp sim.out
-```
 
-### 2. Visualize Waveforms
-
-```shell
+# Open the generated waveform dump file
 gtkwave dump.vcd
-```
-
-In GTKWave, add the `clk`, `rst`, `tick`, `state`, `tick_count`, and all light output signals (`ns_g`, `ew_r`, etc.) to the wave display to verify the behavior.
-
----
 
 ## Expected Behavior
 
