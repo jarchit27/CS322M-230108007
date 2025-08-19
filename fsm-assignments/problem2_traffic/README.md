@@ -11,8 +11,6 @@ This task is a Moore FSM in Verilog that controls a two-road (NS/EW) traffic lig
 
 The main files are `traffic_light.v` (the FSM) and `tb_traffic_light.v` (the testbench).
 
----
-
 ## 3. How to Run Simulation
 
 To compile and run the simulation using Icarus Verilog and view the waveform with GTKWave, use the following commands:
