@@ -19,3 +19,5 @@ All RVX10 instructions use `opcode = 0x0B`.
 ## Encoding Table
 
 ![alt text](image-1.png)
+
+![alt text](image-4.png)
