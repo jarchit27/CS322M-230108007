@@ -2,12 +2,9 @@
 
 This document shows the decoding of machine code for RVX10 instructions using the R-type instruction format:
 
-Instruction format (R-type style used by RVX10)
+# Instruction format (R-type style used by RVX10)
 
-  31   25  24 20 19 15 14 12  11 7  6    0
- +------------+-------+-------+------+-------+----------+
- | funct7 | rs2 | rs1 |funct3| rd | opcode |            |
- +------------+-------+-------+------+-------+----------+
+![alt text](image-2.png)
  
 Machine code is interpreted as:
 
