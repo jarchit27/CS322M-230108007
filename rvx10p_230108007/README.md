@@ -1,7 +1,7 @@
 # RVX10-P: A Five-Stage Pipelined RISC-V Core
 
 **RVX10-P** is a five-stage pipelined RISC-V processor core implementing the **RV32I base ISA** along with **10 custom ALU instructions**.  
-Developed under the course **Digital Logic and Computer Architecture ** taught by **Dr. Satyajit Das**, **IIT Guwahati**.
+Developed under the course **Digital Logic and Computer Architecture** taught by **Dr. Satyajit Das**, **IIT Guwahati**.
 
 ---
 
